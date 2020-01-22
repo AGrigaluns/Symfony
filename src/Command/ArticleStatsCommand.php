@@ -16,13 +16,13 @@ class ArticleStatsCommand extends Command
     protected function configure()
     {
         $this
-            ->setDescription('Return article stats')
-            ->addArgument('slug', InputArgument::REQUIRED, 'The article\s slug')
+            ->setDescription('Returns some article stats!')
+            ->addArgument('slug', InputArgument::REQUIRED, 'The article\'s slug')
             ->addOption('format', null, InputOption::VALUE_REQUIRED, 'The output format', 'text')
         ;
     }
 
-    protected function execute(InputInterface $input, OutputInterface $output): int
+    protected function execute(InputInterface $input, OutputInterface $output)
     {
         $io = new SymfonyStyle($input, $output);
         $slug = $input->getArgument('slug');
@@ -44,8 +44,7 @@ class ArticleStatsCommand extends Command
                 $io->write(json_encode($data));
                 break;
             default:
-                throw new \Exception('Whats that?');
+                throw new \Exception('What kind of crazy format is that!?');
         }
-
     }
 }
