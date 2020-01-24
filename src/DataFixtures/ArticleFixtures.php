@@ -6,7 +6,7 @@ use App\Entity\Article;
 use Doctrine\Bundle\FixturesBundle\Fixture;
 use Doctrine\Common\Persistence\ObjectManager;
 
-class ArticleFixtures extends BasseFixtures
+class ArticleFixtures extends BaseFixtures
 {
     private static $articleTitles = [
         'Why Asteroids Taste Like Bacon',
@@ -47,7 +47,8 @@ EOF
                 );
             // publish most articles
             if ($this->faker->boolean(70)) {
-                $article->setPublishedAt(new \DateTime(sprintf($this->faker->dateTimeBetween('-100 days', '-1 days'))));
+                $fakeDate = $this->faker->dateTimeBetween('-100 days', '-1 days');
+                $article->setPublishedAt($fakeDate);
             }
             $article->setAuthor($this->faker->randomElement(self::$articleAuthors))
                 ->setHeartCount($this->faker->numberBetween(5, 100))

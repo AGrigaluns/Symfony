@@ -9,7 +9,7 @@ use Doctrine\Common\Persistence\ObjectManager;
 use Faker\Factory;
 use Faker\Generator;
 
-abstract class BasseFixtures extends Fixture
+abstract class BaseFixtures extends Fixture
 {
     /** @var ObjectManager */
     private $manager;
@@ -23,7 +23,7 @@ abstract class BasseFixtures extends Fixture
         $this->manager = $manager;
         $this->faker = Factory::create();
 
-        $this->load($manager);
+        $this->loadData($manager);
     }
 
     protected function createMany(string $className, int $count, callable $factory)
