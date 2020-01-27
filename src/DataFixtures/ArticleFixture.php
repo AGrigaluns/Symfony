@@ -3,7 +3,8 @@ namespace App\DataFixtures;
 
 use App\Entity\Article;
 use Doctrine\Common\Persistence\ObjectManager;
-class ArticleFixtures extends BaseFixture
+
+class ArticleFixture extends BaseFixture
 {
     private static $articleTitles = [
         'Why Asteroids Taste Like Bacon',
