@@ -25,7 +25,8 @@ class ArticleFixture extends BaseFixture implements DependentFixtureInterface
     ];
     public function loadData(ObjectManager $manager)
     {
-        $this->createMany(Article::class, 10, function(Article $article, $count) use ($manager) {
+        $this->createMany(10, Article::class, function($i){
+            $article = new Article();
             $article->setTitle($this->faker->randomElement(self::$articleTitles))
                 ->setContent(<<<EOF
 Spicy **jalapeno bacon** ipsum dolor amet veniam shank in dolore. Ham hock nisi landjaeger cow,
@@ -57,7 +58,9 @@ EOF
                     $article->addTag($tag);
                 }
 
+            return $article;
         });
+
         $manager->flush();
     }
 
