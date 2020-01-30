@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1d139fc6-8616-48f0-8860-a50b1f1922ab" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/templates/security/register.html.twig" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Entity/ApiToken.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entity/ApiToken.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Security/ApiTokenAuthenticator.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Security/ApiTokenAuthenticator.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controller/SecurityController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/SecurityController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/base.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html.twig" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -159,6 +160,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/templates/security" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -166,6 +168,11 @@
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/templates/security" />
+    </key>
   </component>
   <component name="ServiceViewManager">
     <option name="viewStates">
@@ -200,7 +207,7 @@
       <workItem from="1579770758930" duration="327000" />
       <workItem from="1579771591779" duration="26983000" />
       <workItem from="1580199464778" duration="7585000" />
-      <workItem from="1580301777080" duration="26246000" />
+      <workItem from="1580301777080" duration="28992000" />
     </task>
     <servers />
   </component>
