@@ -33,6 +33,7 @@ security:
             remember_me:
                 secret: '%kernel.secret%'
                 lifetime: 2592000
+                path: /
 
             switch_user: true
 
