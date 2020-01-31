@@ -29,6 +29,10 @@ class ArticleAdminController extends AbstractController
         ));
     }
 
+    /**
+     * @Route("/admin/article/{id}/edit")
+     * @isGranted("MANAGE", subject="article")
+     */
     public function edit(Article $article)
     {
         dd($article);
