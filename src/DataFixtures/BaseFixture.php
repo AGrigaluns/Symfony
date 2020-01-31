@@ -46,6 +46,11 @@ abstract class BaseFixture extends Fixture
             $this->addReference(sprintf('%s_%d', $groupName, $i), $entity);
         }
     }
+
+    /**
+     * @param string $groupName
+     * @return object
+     */
     protected function getRandomReference(string $groupName) {
         if (!isset($this->referencesIndex[$groupName])) {
             $this->referencesIndex[$groupName] = [];

@@ -1,5 +1,7 @@
 <?php
 namespace App\Controller;
+
+
 use App\Entity\Article;
 use Doctrine\ORM\EntityManagerInterface;
 use Sensio\Bundle\FrameworkExtraBundle\Configuration\IsGranted;
@@ -26,4 +28,10 @@ class ArticleAdminController extends AbstractController
             $article->getSlug()
         ));
     }
+
+    public function edit(Article $article)
+    {
+        dd($article);
+    }
+
 }

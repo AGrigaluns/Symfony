@@ -2,10 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1d139fc6-8616-48f0-8860-a50b1f1922ab" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/templates/security/register.html.twig" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Controller/SecurityController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/SecurityController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/base.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controller/ArticleAdminController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/ArticleAdminController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controller/CommentAdminController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/CommentAdminController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DataFixtures/ArticleFixture.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/DataFixtures/ArticleFixture.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DataFixtures/BaseFixture.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/DataFixtures/BaseFixture.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DataFixtures/CommentFixture.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/DataFixtures/CommentFixture.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Entity/Article.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entity/Article.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Entity/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entity/User.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -207,7 +211,7 @@
       <workItem from="1579770758930" duration="327000" />
       <workItem from="1579771591779" duration="26983000" />
       <workItem from="1580199464778" duration="7585000" />
-      <workItem from="1580301777080" duration="28992000" />
+      <workItem from="1580301777080" duration="36753000" />
     </task>
     <servers />
   </component>
@@ -275,10 +279,10 @@
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state x="2559" y="347" key="com.intellij.ide.util.TipDialog/1920.0.1920.1080/0.0.1920.1040@1920.0.1920.1080" timestamp="1580301780994" />
-    <state x="2557" y="251" width="645" height="538" key="find.popup" timestamp="1580117992668">
+    <state x="2557" y="251" width="734" height="538" key="find.popup" timestamp="1580461659277">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state x="2557" y="251" width="645" height="538" key="find.popup/1920.0.1920.1080/0.0.1920.1040@1920.0.1920.1080" timestamp="1580117992668" />
+    <state x="2557" y="251" width="734" height="538" key="find.popup/1920.0.1920.1080/0.0.1920.1040@1920.0.1920.1080" timestamp="1580461659277" />
     <state x="2543" y="229" width="672" height="678" key="search.everywhere.popup" timestamp="1580135096017">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
