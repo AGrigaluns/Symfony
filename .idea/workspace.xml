@@ -2,9 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1d139fc6-8616-48f0-8860-a50b1f1922ab" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/templates/article_admin/_form.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/article_admin/edit.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/doctrine_database.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/doctrine_database.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Controller/ArticleAdminController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/ArticleAdminController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Entity/Article.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entity/Article.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Form/ArticleFormType.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Form/ArticleFormType.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Repository/UserRepository.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Repository/UserRepository.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/symfony.lock" beforeDir="false" afterPath="$PROJECT_DIR$/symfony.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/article_admin/list.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/article_admin/list.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/article_admin/new.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/article_admin/new.html.twig" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -151,6 +162,7 @@
       <path value="$PROJECT_DIR$/vendor/symfony/intl" />
       <path value="$PROJECT_DIR$/vendor/symfony/polyfill-intl-icu" />
       <path value="$PROJECT_DIR$/vendor/symfony/form" />
+      <path value="$PROJECT_DIR$/vendor/symfony/validator" />
     </include_path>
   </component>
   <component name="ProjectId" id="1WkH308WDLu5j15L1C8vn6wKTuh" />
@@ -212,7 +224,8 @@
       <workItem from="1579770758930" duration="327000" />
       <workItem from="1579771591779" duration="26983000" />
       <workItem from="1580199464778" duration="7585000" />
-      <workItem from="1580301777080" duration="50716000" />
+      <workItem from="1580301777080" duration="53062000" />
+      <workItem from="1580715754250" duration="5501000" />
     </task>
     <servers />
   </component>
@@ -276,17 +289,17 @@
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state x="2570" y="333" key="NewPhpClassDialog/1920.0.1920.1080/0.0.1920.1040@1920.0.1920.1080" timestamp="1580470263876" />
-    <state x="2559" y="347" key="com.intellij.ide.util.TipDialog" timestamp="1580301780994">
+    <state x="2559" y="347" key="com.intellij.ide.util.TipDialog" timestamp="1580715765321">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state x="2559" y="347" key="com.intellij.ide.util.TipDialog/1920.0.1920.1080/0.0.1920.1040@1920.0.1920.1080" timestamp="1580301780994" />
+    <state x="2559" y="347" key="com.intellij.ide.util.TipDialog/1920.0.1920.1080/0.0.1920.1040@1920.0.1920.1080" timestamp="1580715765321" />
     <state x="2557" y="251" width="734" height="538" key="find.popup" timestamp="1580461659277">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state x="2557" y="251" width="734" height="538" key="find.popup/1920.0.1920.1080/0.0.1920.1040@1920.0.1920.1080" timestamp="1580461659277" />
-    <state x="2543" y="229" width="672" height="678" key="search.everywhere.popup" timestamp="1580135096017">
+    <state x="2543" y="229" width="672" height="678" key="search.everywhere.popup" timestamp="1580720097000">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state x="2543" y="229" width="672" height="678" key="search.everywhere.popup/1920.0.1920.1080/0.0.1920.1040@1920.0.1920.1080" timestamp="1580135096017" />
+    <state x="2543" y="229" width="672" height="678" key="search.everywhere.popup/1920.0.1920.1080/0.0.1920.1040@1920.0.1920.1080" timestamp="1580720097000" />
   </component>
 </project>
