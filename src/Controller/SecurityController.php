@@ -41,12 +41,18 @@ class SecurityController extends AbstractController
 
         $form->handleRequest($request);
         if ($form->isSubmitted() && $form->isValid()) {
+
             /** @var User $user */
             $user = $form->getData();
             $user->setPassword($passwordEncoder->encodePassword(
                 $user,
                 $form['plainPassword']->getData()
             ));
+
+                if (true === $form['agreeTerms']->getData()) {
+                    $user->agreeTerms();
+                }
+
             $em = $this->getDoctrine()->getManager();
             $em->persist($user);
             $em->flush();

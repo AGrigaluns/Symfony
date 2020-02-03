@@ -20,6 +20,7 @@ class UserFixture extends BaseFixture
                 $user = new User();
                 $user->setEmail(sprintf('user%d@space.com', $i));
                 $user->setFirstName($this->faker->firstName);
+                $user->agreeTerms();
                 if ($this->faker->boolean) {
                     $user->setTwitterUsername($this->faker->userName);
                 }
@@ -42,6 +43,7 @@ class UserFixture extends BaseFixture
             $user->setEmail(sprintf('admin%d@space.com', $i));
             $user->setFirstName($this->faker->firstName);
             $user->setRoles(['ROLE_ADMIN']);
+            $user->agreeTerms();
 
             $user->setPassword($this->passwordEncoder->encodePassword(
                 $user,
