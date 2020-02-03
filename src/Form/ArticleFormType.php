@@ -31,16 +31,7 @@ class ArticleFormType extends AbstractType
             ])
             ->add('content')
             ->add('publishedAt')
-            ->add('author', EntityType::class, [
-                'class' => User::class,
-                'choice_label' => function(User $user) {
-                    return sprintf('(%d) %s', $user->getId(), $user->getEmail());
-                },
-                'placeholder' => 'Choose an author my man :)',
-                'choices' => $this->userRepository
-                    ->findAllEmailAlphabetical(),
-                'invalid_message' => 'Dont worry Im smarter!'
-            ])
+            ->add('author', UserSelectTextType::class)
         ;
     }
 
