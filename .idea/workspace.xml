@@ -4,6 +4,9 @@
     <list default="true" id="1d139fc6-8616-48f0-8860-a50b1f1922ab" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Controller/ArticleAdminController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/ArticleAdminController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controller/SecurityController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/SecurityController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Entity/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entity/User.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/security/register.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/security/register.html.twig" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -213,7 +216,7 @@
       <workItem from="1579771591779" duration="26983000" />
       <workItem from="1580199464778" duration="7585000" />
       <workItem from="1580301777080" duration="53062000" />
-      <workItem from="1580715754250" duration="6047000" />
+      <workItem from="1580715754250" duration="12668000" />
     </task>
     <servers />
   </component>
@@ -265,10 +268,10 @@
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state x="2555" y="0" width="651" height="1044" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/1920.0.1920.1080/0.0.1920.1040@1920.0.1920.1080" timestamp="1580120041260" />
-    <state x="2614" y="276" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1580133024157">
+    <state x="2614" y="276" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1580734793145">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state x="2614" y="276" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/1920.0.1920.1080/0.0.1920.1040@1920.0.1920.1080" timestamp="1580133024157" />
+    <state x="2614" y="276" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/1920.0.1920.1080/0.0.1920.1040@1920.0.1920.1080" timestamp="1580734793145" />
     <state x="2663" y="262" key="FileChooserDialogImpl" timestamp="1579695088731">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
