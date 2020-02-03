@@ -48,7 +48,6 @@ class ArticleAdminController extends AbstractController
      */
     public function edit(Article $article, Request $request, EntityManagerInterface $em)
     {
-        $article = new Article();
         $form = $this->createForm(ArticleFormType::class, $article);
 
         $form->handleRequest($request);
