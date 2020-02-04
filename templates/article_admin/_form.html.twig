@@ -6,6 +6,10 @@
     {% if articleForm.publishedAt is defined %}
         {{ form_row(articleForm.publishedAt) }}
     {% endif %}
+    {{ form_row(articleForm.location) }}
+    {% if articleForm.specificLocationName is defined %}
+        {{ form_row(articleForm.specificLocationName) }}
+    {% endif %}
     {{ form_row(articleForm.author) }}
 
 
