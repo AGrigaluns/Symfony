@@ -256,6 +256,9 @@ class Article
         return $this;
     }
 
+    /**
+     * @Assert\Callback()
+     */
     public function validate(ExecutionContextInterface $context, $payload)
     {
         if (stripos($this->getTitle(), 'the borg') !==false) {

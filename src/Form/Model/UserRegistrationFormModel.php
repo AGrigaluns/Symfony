@@ -4,18 +4,15 @@
 namespace App\Form\Model;
 
 
-use Symfony\Bridge\Doctrine\Validator\Constraints\UniqueEntity;
+use App\Validator\UniqueUser;
 use Symfony\Component\Validator\Constraints as Assert;
-
-/**
- * @UniqueEntity(fields={"email"}, message="This email already exists!")
- */
 
 class UserRegistrationFormModel
 {
     /**
      * @Assert\NotBlank(message="Enter an email!")
      * @Assert\Email()
+     * @UniqueUser()
      */
     public $email;
     /**
