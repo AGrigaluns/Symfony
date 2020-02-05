@@ -5,12 +5,33 @@ namespace App\MessageHandler;
 
 
 use App\Message\AddPonkaToimage;
+use App\Photo\PhotoFileManager;
+use App\Photo\PhotoPonkaficator;
+use Doctrine\ORM\EntityManagerInterface;
 use Symfony\Component\Messenger\Handler\MessageHandlerInterface;
 
 class AddPonkaToImageHandler implements MessageHandlerInterface
 {
-    public function __invoke(AddPonkaToimage $addPonkaToimage)
+    private $ponkaficator;
+    private $photoManager;
+    private $entityManager;
+
+    public function __construct(PhotoPonkaficator $ponkaficator, PhotoFileManager $photoManager, EntityManagerInterface $entityManager)
     {
-        dump($addPonkaToimage);
+        $this->ponkaficator = $ponkaficator;
+        $this->photoManager = $photoManager;
+        $this->entityManager = $entityManager;
+    }
+
+    public function __invoke(AddPonkaToimage $addPonkaToImage)
+    {
+        $imagePost = $addPonkaToImage->getImagePost();
+
+        $updatedContents = $this->ponkaficator->ponkafy(
+            $this->photoManager->read($imagePost->getFilename())
+        );
+        $this->photoManager->update($imagePost->getFilename(), $updatedContents);
+        $imagePost->markAsPonkaAdded();
+        $this->entityManager->flush();
     }
 }
