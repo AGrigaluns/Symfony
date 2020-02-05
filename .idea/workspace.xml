@@ -2,12 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="25cd42e9-7f10-412e-bf03-a1d0acdaf632" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.env" beforeDir="false" afterPath="$PROJECT_DIR$/.env" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Message/DeletePhotoFile.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MessageHandler/DeletePhotoFileHandler.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/packages/messenger.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/packages/messenger.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Controller/ImagePostController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/ImagePostController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Message/AddPonkaToimage.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Message/AddPonkaToImage.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MessageHandler/AddPonkaToImageHandler.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/MessageHandler/AddPonkaToImageHandler.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MessageHandler/DeleteImagePostHandler.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/MessageHandler/DeleteImagePostHandler.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -166,9 +164,9 @@
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state x="2638" y="25" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/1920.0.1920.1080/0.0.1920.1040@1920.0.1920.1080" timestamp="1580907729167" />
-    <state x="2640" y="335" key="NewPhpClassDialog" timestamp="1580893390844">
+    <state x="2640" y="335" key="NewPhpClassDialog" timestamp="1580909688924">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state x="2640" y="335" key="NewPhpClassDialog/1920.0.1920.1080/0.0.1920.1040@1920.0.1920.1080" timestamp="1580893390844" />
+    <state x="2640" y="335" key="NewPhpClassDialog/1920.0.1920.1080/0.0.1920.1040@1920.0.1920.1080" timestamp="1580909688924" />
   </component>
 </project>
