@@ -2,11 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="25cd42e9-7f10-412e-bf03-a1d0acdaf632" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Message/DeleteImagePost.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MessageHandler/DeleteImagePostHandler.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Controller/ImagePostController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/ImagePostController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Message/AddPonkaToimage.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Message/AddPonkaToimage.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MessageHandler/AddPonkaToImageHandler.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/MessageHandler/AddPonkaToImageHandler.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -125,6 +124,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/Message" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -132,6 +132,11 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="yarn" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/Message" />
+    </key>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -143,7 +148,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1580889092421</updated>
-      <workItem from="1580889093914" duration="3967000" />
+      <workItem from="1580889093914" duration="4964000" />
     </task>
     <servers />
   </component>
@@ -151,13 +156,13 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="2689" y="239" key="#com.intellij.ide.util.MemberChooser" timestamp="1580892597061">
+    <state x="2689" y="239" key="#com.intellij.ide.util.MemberChooser" timestamp="1580893573519">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state x="2689" y="239" key="#com.intellij.ide.util.MemberChooser/1920.0.1920.1080/0.0.1920.1040@1920.0.1920.1080" timestamp="1580892597061" />
-    <state x="2640" y="335" key="NewPhpClassDialog" timestamp="1580890287547">
+    <state x="2689" y="239" key="#com.intellij.ide.util.MemberChooser/1920.0.1920.1080/0.0.1920.1040@1920.0.1920.1080" timestamp="1580893573519" />
+    <state x="2640" y="335" key="NewPhpClassDialog" timestamp="1580893390844">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state x="2640" y="335" key="NewPhpClassDialog/1920.0.1920.1080/0.0.1920.1040@1920.0.1920.1080" timestamp="1580890287547" />
+    <state x="2640" y="335" key="NewPhpClassDialog/1920.0.1920.1080/0.0.1920.1040@1920.0.1920.1080" timestamp="1580893390844" />
   </component>
 </project>
