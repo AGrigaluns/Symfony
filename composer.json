@@ -7,7 +7,7 @@
         "ext-iconv": "*",
         "intervention/image": "^2.4",
         "league/flysystem-bundle": "^1.0",
-        "sensio/framework-extra-bundle": "^5.3",
+        "sensio/framework-extra-bundle": "^5.5",
         "symfony/console": "4.3.*",
         "symfony/dotenv": "4.3.*",
         "symfony/flex": "^1.1",
