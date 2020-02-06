@@ -2,11 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="25cd42e9-7f10-412e-bf03-a1d0acdaf632" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/config/packages/dev/messenger.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/symfony2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/Controller/ImagePostControllerTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/messenger.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/messenger.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/packages/messenger.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/packages/messenger.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/symfony.lock" beforeDir="false" afterPath="$PROJECT_DIR$/symfony.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -112,6 +116,11 @@
       <path value="$PROJECT_DIR$/vendor/doctrine/doctrine-migrations-bundle" />
       <path value="$PROJECT_DIR$/vendor/ralouphie/getallheaders" />
       <path value="$PROJECT_DIR$/vendor/doctrine/cache" />
+      <path value="$PROJECT_DIR$/vendor/symfony/dom-crawler" />
+      <path value="$PROJECT_DIR$/vendor/symfony/phpunit-bridge" />
+      <path value="$PROJECT_DIR$/vendor/symfony/browser-kit" />
+      <path value="$PROJECT_DIR$/vendor/symfony/test-pack" />
+      <path value="$PROJECT_DIR$/vendor/symfony/css-selector" />
     </include_path>
   </component>
   <component name="ProjectId" id="1XNadRsGZ3512hlGn6vQI5X4ROO" />
@@ -133,6 +142,7 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="yarn" />
+    <property name="settings.editor.selected.configurable" value="web-ide.project.structure" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -169,9 +179,13 @@
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state x="2663" y="264" key="FileChooserDialogImpl/1920.0.1920.1080/0.0.1920.1040@1920.0.1920.1080" timestamp="1580978709449" />
-    <state x="2640" y="335" key="NewPhpClassDialog" timestamp="1580916712420">
+    <state x="2640" y="335" key="NewPhpClassDialog" timestamp="1581000746873">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state x="2640" y="335" key="NewPhpClassDialog/1920.0.1920.1080/0.0.1920.1040@1920.0.1920.1080" timestamp="1580916712420" />
+    <state x="2640" y="335" key="NewPhpClassDialog/1920.0.1920.1080/0.0.1920.1040@1920.0.1920.1080" timestamp="1581000746873" />
+    <state x="2377" y="155" key="SettingsEditor" timestamp="1581001048111">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2377" y="155" key="SettingsEditor/1920.0.1920.1080/0.0.1920.1040@1920.0.1920.1080" timestamp="1581001048111" />
   </component>
 </project>
