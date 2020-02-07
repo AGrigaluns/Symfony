@@ -2,13 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="25cd42e9-7f10-412e-bf03-a1d0acdaf632" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Message/Event/ImagePostDeletedEvent.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/MessageHandler/Event/RemoveFileWhenImagePostDeleted.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/config/packages/messenger.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/packages/messenger.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Message/DeletePhotoFile.php" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/MessageHandler/DeleteImagePostHandler.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/MessageHandler/DeleteImagePostHandler.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MessageHandler/DeletePhotoFileHandler.php" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -186,5 +182,16 @@
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state x="2377" y="155" key="SettingsEditor/1920.0.1920.1080/0.0.1920.1040@1920.0.1920.1080" timestamp="1581001048111" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/src/MessageHandler/Event/RemoveFileWhenImagePostDeleted.php</url>
+          <line>17</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
