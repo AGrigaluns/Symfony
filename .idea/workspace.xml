@@ -2,8 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="25cd42e9-7f10-412e-bf03-a1d0acdaf632" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/Message/Command/LogEmoji.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MessageHandler/Command/LogEmojiHandler.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/config/packages/messenger.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/packages/messenger.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controller/ImagePostController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/ImagePostController.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -183,10 +186,10 @@
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state x="2663" y="264" key="FileChooserDialogImpl/1920.0.1920.1080/0.0.1920.1040@1920.0.1920.1080" timestamp="1580978709449" />
-    <state x="2640" y="335" key="NewPhpClassDialog" timestamp="1581321863554">
+    <state x="2640" y="335" key="NewPhpClassDialog" timestamp="1581339967803">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state x="2640" y="335" key="NewPhpClassDialog/1920.0.1920.1080/0.0.1920.1040@1920.0.1920.1080" timestamp="1581321863554" />
+    <state x="2640" y="335" key="NewPhpClassDialog/1920.0.1920.1080/0.0.1920.1040@1920.0.1920.1080" timestamp="1581339967803" />
     <state x="2377" y="155" key="SettingsEditor" timestamp="1581001048111">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
