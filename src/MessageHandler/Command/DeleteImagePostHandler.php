@@ -1,7 +1,7 @@
 <?php
 
 
-namespace App\MessageHandler;
+namespace App\MessageHandler\Command;
 
 
 use App\Message\Command\DeleteImagePost;

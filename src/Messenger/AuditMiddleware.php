@@ -1,7 +1,7 @@
 <?php
 
 
-namespace App\Messenger\Command;
+namespace App\Messenger;
 
 
 use Psr\Log\LoggerInterface;
