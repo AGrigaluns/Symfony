@@ -4,7 +4,7 @@
 namespace App\MessageHandler;
 
 
-use App\Message\DeleteImagePost;
+use App\Message\Command\DeleteImagePost;
 use App\Message\Event\ImagePostDeletedEvent;
 use Doctrine\ORM\EntityManagerInterface;
 use Symfony\Component\Messenger\Handler\MessageHandlerInterface;

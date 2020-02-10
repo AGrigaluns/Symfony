@@ -1,7 +1,7 @@
 <?php
 
 
-namespace App\Messenger;
+namespace App\Messenger\Command;
 
 
 use Symfony\Component\Messenger\Stamp\StampInterface;
