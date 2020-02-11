@@ -1,7 +1,5 @@
 <?php
-
 namespace App\Controller;
-
 use App\Entity\User;
 use App\Form\Model\UserRegistrationFormModel;
 use App\Form\UserRegistrationFormType;
@@ -9,11 +7,11 @@ use App\Security\LoginFormAuthenticator;
 use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\Mailer\MailerInterface;
+use Symfony\Component\Mime\Email;
 use Symfony\Component\Routing\Annotation\Route;
 use Symfony\Component\Security\Core\Encoder\UserPasswordEncoderInterface;
 use Symfony\Component\Security\Guard\GuardAuthenticatorHandler;
 use Symfony\Component\Security\Http\Authentication\AuthenticationUtils;
-
 class SecurityController extends AbstractController
 {
     /**
@@ -23,16 +21,13 @@ class SecurityController extends AbstractController
     {
         // get the login error if there is one
         $error = $authenticationUtils->getLastAuthenticationError();
-
         // last username entered by the user
         $lastUsername = $authenticationUtils->getLastUsername();
-
         return $this->render('security/login.html.twig', [
             'last_username' => $lastUsername,
             'error'         => $error,
         ]);
     }
-
     /**
      * @Route("/logout", name="app_logout")
      */
@@ -40,7 +35,6 @@ class SecurityController extends AbstractController
     {
         throw new \Exception('Will be intercepted before getting here');
     }
-
     /**
      * @Route("/register", name="app_register")
      */
@@ -48,11 +42,9 @@ class SecurityController extends AbstractController
     {
         $form = $this->createForm(UserRegistrationFormType::class);
         $form->handleRequest($request);
-
         if ($form->isSubmitted() && $form->isValid()) {
             /** @var UserRegistrationFormModel $userModel */
             $userModel = $form->getData();
-
             $user = new User();
             $user->setFirstName($userModel->firstName);
             $user->setEmail($userModel->email);
@@ -65,19 +57,15 @@ class SecurityController extends AbstractController
                 $user->agreeToTerms();
             }
             $user->setSubscribeToNewsletter($userModel->subscribeToNewsletter);
-
             $em = $this->getDoctrine()->getManager();
             $em->persist($user);
             $em->flush();
-
             $email = (new Email())
-                ->form('alienmailer@example.com')
+                ->from('alienmailcarrier@example.com')
                 ->to($user->getEmail())
-                ->subject('Welcome')
-                ->text("Nice to meet you {$user->getFirstName()}!");
-
+                ->subject('Welcome to the Space Bar!')
+                ->text("Nice to meet you {$user->getFirstName()}! ❤️");
             $mailer->send($email);
-
             return $guardHandler->authenticateUserAndHandleSuccess(
                 $user,
                 $request,
@@ -85,7 +73,6 @@ class SecurityController extends AbstractController
                 'main'
             );
         }
-
         return $this->render('security/register.html.twig', [
             'registrationForm' => $form->createView(),
         ]);
