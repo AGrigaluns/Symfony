@@ -139,6 +139,9 @@
       <path value="$PROJECT_DIR$/vendor/league/html-to-markdown" />
       <path value="$PROJECT_DIR$/vendor/symfony/twig-pack" />
       <path value="$PROJECT_DIR$/vendor/twig/extra-bundle" />
+      <path value="$PROJECT_DIR$/vendor/symfony/css-selector" />
+      <path value="$PROJECT_DIR$/vendor/twig/cssinliner-extra" />
+      <path value="$PROJECT_DIR$/vendor/tijsverkoyen/css-to-inline-styles" />
     </include_path>
   </component>
   <component name="PhpProjectSharedConfiguration" php_language_level="7.1" />
