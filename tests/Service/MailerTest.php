@@ -27,6 +27,14 @@ class MailerTest extends TestCase
         $user->setEmail('alvis20@example.com');
 
         $mailer = new Mailer($symfonyMailer, $twig, $pdf, $entrypointLookup);
-        $mailer->sendWelcomeMessage($user);
+        $email = $mailer->sendWelcomeMessage($user);
+
+        $this->assertSame('Welcome to the Space Bar!', $email->getSubject());
+        $this->assertCount(1, $email->getTo());
+        /** @var NamedAddress[] $namedAddresses */
+        $namedAddresses = $email->getTo();
+        $this->assertInstanceOf(NamedAddress::class, $namedAddresses[0]);
+        $this->assertSame('Victor', $namedAddresses[0]->getName());
+        $this->assertSame('victor@symfonycasts.com', $namedAddresses[0]->getAddress());
     }
 }
