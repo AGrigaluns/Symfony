@@ -13,7 +13,7 @@ use Symfony\Component\HttpFoundation\File\UploadedFile;
 
 class UploaderHelper
 {
-    const ARTICLE_IMAGE = 'article_image';
+    const ARTICLE_IMAGE = 'uploads/article_image';
     const ARTICLE_REFERENCE = 'article_reference';
 
     private $filesystem;
