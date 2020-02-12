@@ -2,18 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2fe3ed0e-d097-4c58-ad22-623b2bbbdab2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/templates/email/_report-table.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/email/author-weekly-report-pdf.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.env" beforeDir="false" afterPath="$PROJECT_DIR$/.env" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/mailer.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/mailer.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/bundles.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/bundles.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Command/AuthorWeeklyReportSendCommand.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Command/AuthorWeeklyReportSendCommand.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/symfony.lock" beforeDir="false" afterPath="$PROJECT_DIR$/symfony.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/email/author-weekly-report.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/email/author-weekly-report.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/email/author-weekly-report-pdf.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/email/author-weekly-report-pdf.html.twig" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -218,7 +209,7 @@
       <updated>1581409062000</updated>
       <workItem from="1581409063208" duration="8483000" />
       <workItem from="1581421363706" duration="7568000" />
-      <workItem from="1581430487196" duration="17051000" />
+      <workItem from="1581430487196" duration="18066000" />
     </task>
     <servers />
   </component>
