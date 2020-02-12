@@ -5,7 +5,6 @@
       <change beforePath="$PROJECT_DIR$/.env" beforeDir="false" afterPath="$PROJECT_DIR$/.env" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/config/services.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/services.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/email/author-weekly-report.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/email/author-weekly-report.html.twig" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -208,7 +207,7 @@
       <updated>1581409062000</updated>
       <workItem from="1581409063208" duration="8483000" />
       <workItem from="1581421363706" duration="7568000" />
-      <workItem from="1581430487196" duration="11064000" />
+      <workItem from="1581430487196" duration="12134000" />
     </task>
     <servers />
   </component>

@@ -7,7 +7,7 @@ parameters:
     cache_adapter: cache.adapter.apcu
     locale: 'en'
     uploads_base_url: '%env(SITE_BASE_URL)%/uploads'
-    router.request_context.scheme: '%env(SITE_BASE_SCHEME)%'
+   # router.request_context.scheme: '%env(SITE_BASE_SCHEME)%'
     router.request_context.host: '%env(SITE_BASE_HOST)%'
 
 services:
