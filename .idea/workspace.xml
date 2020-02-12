@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2fe3ed0e-d097-4c58-ad22-623b2bbbdab2" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/Service/Mailer.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Command/AuthorWeeklyReportSendCommand.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Command/AuthorWeeklyReportSendCommand.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/email/author-weekly-report-pdf.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/email/author-weekly-report-pdf.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controller/SecurityController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/SecurityController.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -209,7 +210,7 @@
       <updated>1581409062000</updated>
       <workItem from="1581409063208" duration="8483000" />
       <workItem from="1581421363706" duration="7568000" />
-      <workItem from="1581430487196" duration="18066000" />
+      <workItem from="1581430487196" duration="19850000" />
     </task>
     <servers />
   </component>
@@ -217,14 +218,22 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="2689" y="239" key="#com.intellij.ide.util.MemberChooser" timestamp="1581509726395">
+    <state x="2689" y="239" key="#com.intellij.ide.util.MemberChooser" timestamp="1581514912554">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state x="2689" y="239" key="#com.intellij.ide.util.MemberChooser/1920.0.1920.1080/0.0.1920.1040@1920.0.1920.1080" timestamp="1581509726395" />
+    <state x="2689" y="239" key="#com.intellij.ide.util.MemberChooser/1920.0.1920.1080/0.0.1920.1040@1920.0.1920.1080" timestamp="1581514912554" />
+    <state x="2614" y="278" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1581514894434">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2614" y="278" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/1920.0.1920.1080/0.0.1920.1040@1920.0.1920.1080" timestamp="1581514894434" />
     <state x="2663" y="264" key="FileChooserDialogImpl" timestamp="1581507620339">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state x="2663" y="264" key="FileChooserDialogImpl/1920.0.1920.1080/0.0.1920.1040@1920.0.1920.1080" timestamp="1581507620339" />
+    <state x="2622" y="335" key="NewPhpClassDialog" timestamp="1581513948928">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2622" y="335" key="NewPhpClassDialog/1920.0.1920.1080/0.0.1920.1040@1920.0.1920.1080" timestamp="1581513948928" />
     <state x="2377" y="155" key="SettingsEditor" timestamp="1581427816485">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
