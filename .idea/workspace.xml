@@ -2,9 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2fe3ed0e-d097-4c58-ad22-623b2bbbdab2" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/templates/email/_report-table.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/email/author-weekly-report-pdf.html.twig" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.env" beforeDir="false" afterPath="$PROJECT_DIR$/.env" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/mailer.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/mailer.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/services.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/services.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/bundles.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/bundles.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Command/AuthorWeeklyReportSendCommand.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Command/AuthorWeeklyReportSendCommand.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/symfony.lock" beforeDir="false" afterPath="$PROJECT_DIR$/symfony.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/email/author-weekly-report.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/email/author-weekly-report.html.twig" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -164,6 +173,8 @@
       <path value="$PROJECT_DIR$/vendor/tijsverkoyen/css-to-inline-styles" />
       <path value="$PROJECT_DIR$/vendor/lorenzo/pinky" />
       <path value="$PROJECT_DIR$/vendor/twig/inky-extra" />
+      <path value="$PROJECT_DIR$/vendor/knplabs/knp-snappy" />
+      <path value="$PROJECT_DIR$/vendor/knplabs/knp-snappy-bundle" />
     </include_path>
   </component>
   <component name="ProjectId" id="1XeaYZxA2ADkbshcTo5pJ2BMi8l" />
@@ -207,7 +218,7 @@
       <updated>1581409062000</updated>
       <workItem from="1581409063208" duration="8483000" />
       <workItem from="1581421363706" duration="7568000" />
-      <workItem from="1581430487196" duration="12134000" />
+      <workItem from="1581430487196" duration="17051000" />
     </task>
     <servers />
   </component>
@@ -215,10 +226,14 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="2663" y="264" key="FileChooserDialogImpl" timestamp="1581428330782">
+    <state x="2689" y="239" key="#com.intellij.ide.util.MemberChooser" timestamp="1581509726395">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state x="2663" y="264" key="FileChooserDialogImpl/1920.0.1920.1080/0.0.1920.1040@1920.0.1920.1080" timestamp="1581428330782" />
+    <state x="2689" y="239" key="#com.intellij.ide.util.MemberChooser/1920.0.1920.1080/0.0.1920.1040@1920.0.1920.1080" timestamp="1581509726395" />
+    <state x="2663" y="264" key="FileChooserDialogImpl" timestamp="1581507620339">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2663" y="264" key="FileChooserDialogImpl/1920.0.1920.1080/0.0.1920.1040@1920.0.1920.1080" timestamp="1581507620339" />
     <state x="2377" y="155" key="SettingsEditor" timestamp="1581427816485">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
