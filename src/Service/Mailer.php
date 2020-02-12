@@ -1,8 +1,6 @@
 <?php
 
-
 namespace App\Service;
-
 
 use App\Entity\User;
 use Knp\Snappy\Pdf;
@@ -15,17 +13,16 @@ use Twig\Environment;
 class Mailer
 {
     private $mailer;
+    private $twig;
     private $pdf;
     private $entrypointLookup;
-    private $twig;
 
-    public function __construct(MailerInterface $mailer, Pdf $pdf, EntrypointLookupInterface $entrypointLookup, Environment $twig)
+    public function __construct(MailerInterface $mailer, Environment $twig, Pdf $pdf, EntrypointLookupInterface $entrypointLookup)
     {
-
         $this->mailer = $mailer;
+        $this->twig = $twig;
         $this->pdf = $pdf;
         $this->entrypointLookup = $entrypointLookup;
-        $this->twig = $twig;
     }
 
     public function sendWelcomeMessage(User $user): TemplatedEmail
@@ -36,7 +33,8 @@ class Mailer
             ->subject('Welcome to the Space Bar!')
             ->htmlTemplate('email/welcome.html.twig')
             ->context([
-                'user' => $user
+                // You can pass whatever data you want
+                //'user' => $user,
             ]);
 
         $this->mailer->send($email);
@@ -46,7 +44,6 @@ class Mailer
 
     public function sendAuthorWeeklyReportMessage(User $author, array $articles): TemplatedEmail
     {
-
         $html = $this->twig->render('email/author-weekly-report-pdf.html.twig', [
             'articles' => $articles,
         ]);
@@ -62,10 +59,11 @@ class Mailer
                 'author' => $author,
                 'articles' => $articles,
             ])
-
             ->attach($pdf, sprintf('weekly-report-%s.pdf', date('Y-m-d')));
+
         $this->mailer->send($email);
 
         return $email;
     }
 }
+
