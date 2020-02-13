@@ -16,12 +16,17 @@ class SecurityControllerTest extends WebTestCase
         $button = $crawler->selectButton('Register');
         $form = $button->form();
         $form['user_registration_form[firstName]']->setValue('Ryan');
-        $form['user_registration_form[email]']->setValue(sprintf('foo@example.com', rand()));
+        $form['user_registration_form[email]']->setValue(sprintf('foo@example111.com', rand()));
         $form['user_registration_form[plainPassword]']->setValue('space_rocks');
         $form['user_registration_form[agreeTerms]']->tick();
         $client->submit($form);
 
         $this->assertResponseRedirects();
 
+        /*
+        $this->assertEmailCount(1);
+        $email = $this->getMailerMessage(0);
+        $this->assertEmailHeaderSame($email, 'To', 'fabien@sy,fony.com');
+        */
     }
 }
