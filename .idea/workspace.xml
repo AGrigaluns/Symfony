@@ -2,10 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2fe3ed0e-d097-4c58-ad22-623b2bbbdab2" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.env" beforeDir="false" afterPath="$PROJECT_DIR$/.env" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.env.test" beforeDir="false" afterPath="$PROJECT_DIR$/.env.test" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/mailer.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/mailer.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/services.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/services.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/services_dev.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/services_prod.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/Service/MailerTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/Service/MailerTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/symfony.lock" beforeDir="false" afterPath="$PROJECT_DIR$/symfony.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -167,6 +171,8 @@
       <path value="$PROJECT_DIR$/vendor/twig/inky-extra" />
       <path value="$PROJECT_DIR$/vendor/knplabs/knp-snappy" />
       <path value="$PROJECT_DIR$/vendor/knplabs/knp-snappy-bundle" />
+      <path value="$PROJECT_DIR$/vendor/symfony/browser-kit" />
+      <path value="$PROJECT_DIR$/vendor/symfony/dom-crawler" />
     </include_path>
   </component>
   <component name="ProjectId" id="1XeaYZxA2ADkbshcTo5pJ2BMi8l" />
@@ -195,6 +201,7 @@
       <recent name="$PROJECT_DIR$/templates/email" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/tests/Controller" />
       <recent name="$PROJECT_DIR$/tests/Service" />
       <recent name="$PROJECT_DIR$/templates/email" />
     </key>
@@ -211,7 +218,7 @@
       <updated>1581409062000</updated>
       <workItem from="1581409063208" duration="8483000" />
       <workItem from="1581421363706" duration="7568000" />
-      <workItem from="1581430487196" duration="25295000" />
+      <workItem from="1581430487196" duration="28205000" />
     </task>
     <servers />
   </component>
