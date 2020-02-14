@@ -8,6 +8,7 @@ use App\Repository\ArticleRepository;
 use Doctrine\ORM\EntityManagerInterface;
 use Sensio\Bundle\FrameworkExtraBundle\Configuration\IsGranted;
 use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
+use Symfony\Component\HttpFoundation\File\UploadedFile;
 use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\HttpFoundation\Response;
 use Symfony\Component\Routing\Annotation\Route;
@@ -65,6 +66,18 @@ class ArticleAdminController extends BaseController
         return $this->render('article_admin/edit.html.twig', [
             'articleForm' => $form->createView()
         ]);
+    }
+
+    /**
+     * @Route("/admin/upload/test", name="upload_test")
+     */
+    public function temporaryUploadAction(Request $request)
+    {
+        /** @var UploadedFile $uploadedFile */
+        $uploadedFile = $request->files->get('images');
+        $destination = $this->getParameter('kernel.project_dir').'/public/uploads';
+
+        dd($uploadedFile->move($destination));
     }
 
     /**
