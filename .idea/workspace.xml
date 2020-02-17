@@ -2,15 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="216231b5-106f-404a-9bd2-aeae76fe18c6" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/files_symfony.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/files_symfony.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/bundles.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/bundles.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/packages/routing.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/services.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/services.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controller/ArticleAdminController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/ArticleAdminController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/DataFixtures/ArticleFixtures.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/DataFixtures/ArticleFixtures.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DataFixtures/images/asteroid.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DataFixtures/images/lightspeed.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DataFixtures/images/mercury.jpeg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Service/UploaderHelper.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Service/UploaderHelper.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/symfony.lock" beforeDir="false" afterPath="$PROJECT_DIR$/symfony.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -174,7 +174,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/public/uploads/article_image" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/public/uploads" />
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="settings.editor.selected.configurable" value="JavaScript.Libraries" />
@@ -184,6 +184,7 @@
       <recent name="$PROJECT_DIR$/src/DataFixtures/images" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/public/uploads" />
       <recent name="$PROJECT_DIR$/public/uploads/article_image" />
     </key>
   </component>

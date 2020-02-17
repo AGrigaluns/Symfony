@@ -96,6 +96,6 @@ EOF
         $fs->copy(__DIR__.'/images'.$randomImages, $targetPath, true);
 
         return $this->uploaderHelper
-            ->uploadArticleImage(new File($targetPath));
+            ->uploadArticleImage(new File($targetPath), null);
     }
 }
