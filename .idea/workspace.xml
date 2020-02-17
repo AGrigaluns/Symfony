@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="216231b5-106f-404a-9bd2-aeae76fe18c6" name="Default Changelist" comment="" />
+    <list default="true" id="216231b5-106f-404a-9bd2-aeae76fe18c6" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/Service/UploaderHelper.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/services.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/services.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controller/ArticleAdminController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/ArticleAdminController.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -174,5 +179,13 @@
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state x="2635" y="327" key="#com.intellij.fileTypes.FileTypeChooser/1920.0.1920.1080/0.0.1920.1040@1920.0.1920.1080" timestamp="1581692582235" />
+    <state x="2614" y="280" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1581931352443">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2614" y="280" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/1920.0.1920.1080/0.0.1920.1040@1920.0.1920.1080" timestamp="1581931352443" />
+    <state x="2598" y="337" key="NewPhpClassDialog" timestamp="1581931232475">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2598" y="337" key="NewPhpClassDialog/1920.0.1920.1080/0.0.1920.1040@1920.0.1920.1080" timestamp="1581931232475" />
   </component>
 </project>
