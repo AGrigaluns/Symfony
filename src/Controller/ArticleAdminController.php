@@ -66,7 +66,9 @@ class ArticleAdminController extends BaseController
         $uploadedFile = $request->files->get('image');
         $destination = $this->getParameter('kernel.project_dir').'/public/uploads';
 
+
         $originalFilename = pathinfo($uploadedFile->getClientOriginalName(), PATHINFO_FILENAME);
+        // uniqid() is for unique file name, when user uploads file with the same name it will be with different id
         $newFilename = Urlizer::urlize($originalFilename).'-'.uniqid().'-'.$uploadedFile->guessExtension();
 
         dd($uploadedFile->move(
