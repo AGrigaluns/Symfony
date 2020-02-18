@@ -7,7 +7,7 @@ namespace App\Controller;
 use App\Entity\Article;
 use App\Entity\ArticleReference;
 use App\Service\UploaderHelper;
-use Doctrine\ORM\EntityManager;
+use Doctrine\ORM\EntityManagerInterface;
 use Sensio\Bundle\FrameworkExtraBundle\Configuration\IsGranted;
 use Symfony\Component\HttpFoundation\File\UploadedFile;
 use Symfony\Component\HttpFoundation\Request;
@@ -19,7 +19,7 @@ class ArticleReferenceAdminController extends BaseController
      * @Route("/admin/article/{id}/references", name="admin_article_add_reference", methods={"POST"})
      * @IsGranted("MANAGE", subject="article")
      */
-    public function uploadArticleReference(Article $article, Request $request, UploaderHelper $uploaderHelper, EntityManager $entityManager)
+    public function uploadArticleReference(Article $article, Request $request, UploaderHelper $uploaderHelper, EntityManagerInterface $entityManager)
     {
         /** @var UploadedFile $uploadedFile */
         $uploadedFile = ($request->files->get('reference'));

@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="216231b5-106f-404a-9bd2-aeae76fe18c6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Controller/ArticleReferenceAdminController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Controller/ArticleAdminController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/ArticleAdminController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Entity/ArticleReference.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entity/ArticleReference.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Service/UploaderHelper.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Service/UploaderHelper.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/article_admin/edit.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/article_admin/edit.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controller/ArticleReferenceAdminController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/ArticleReferenceAdminController.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -202,7 +198,7 @@
       <updated>1581686516851</updated>
       <workItem from="1581686518189" duration="1219000" />
       <workItem from="1582010384803" duration="907000" />
-      <workItem from="1582011308644" duration="7228000" />
+      <workItem from="1582011308644" duration="7677000" />
     </task>
     <servers />
   </component>
