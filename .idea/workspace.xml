@@ -5,7 +5,7 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/js/admin_article_form.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/admin_article_form.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Controller/ArticleReferenceAdminController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/ArticleReferenceAdminController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/article_admin/edit.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/article_admin/edit.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Service/UploaderHelper.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Service/UploaderHelper.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -200,7 +200,7 @@
       <updated>1581686516851</updated>
       <workItem from="1581686518189" duration="1219000" />
       <workItem from="1582010384803" duration="907000" />
-      <workItem from="1582011308644" duration="21416000" />
+      <workItem from="1582011308644" duration="25115000" />
     </task>
     <servers />
   </component>
