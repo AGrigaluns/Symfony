@@ -2,8 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="216231b5-106f-404a-9bd2-aeae76fe18c6" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/Controller/ArticleReferenceAdminController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Entity/Article.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entity/Article.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controller/ArticleAdminController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/ArticleAdminController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Entity/ArticleReference.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entity/ArticleReference.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Service/UploaderHelper.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Service/UploaderHelper.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/article_admin/edit.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/article_admin/edit.html.twig" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -199,7 +202,7 @@
       <updated>1581686516851</updated>
       <workItem from="1581686518189" duration="1219000" />
       <workItem from="1582010384803" duration="907000" />
-      <workItem from="1582011308644" duration="5593000" />
+      <workItem from="1582011308644" duration="7228000" />
     </task>
     <servers />
   </component>
@@ -215,10 +218,10 @@
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state x="2614" y="280" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/1920.0.1920.1080/0.0.1920.1040@1920.0.1920.1080" timestamp="1581931352443" />
-    <state x="2598" y="337" key="NewPhpClassDialog" timestamp="1581931232475">
+    <state x="2598" y="337" key="NewPhpClassDialog" timestamp="1582017059483">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state x="2598" y="337" key="NewPhpClassDialog/1920.0.1920.1080/0.0.1920.1040@1920.0.1920.1080" timestamp="1581931232475" />
+    <state x="2598" y="337" key="NewPhpClassDialog/1920.0.1920.1080/0.0.1920.1040@1920.0.1920.1080" timestamp="1582017059483" />
     <state x="2377" y="157" key="SettingsEditor" timestamp="1582011270623">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
