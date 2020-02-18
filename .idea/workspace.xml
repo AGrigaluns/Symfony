@@ -3,7 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="216231b5-106f-404a-9bd2-aeae76fe18c6" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Controller/ArticleReferenceAdminController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/ArticleReferenceAdminController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/packages/oneup_flysystem.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/packages/oneup_flysystem.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/services.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/services.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Service/UploaderHelper.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Service/UploaderHelper.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -198,7 +200,7 @@
       <updated>1581686516851</updated>
       <workItem from="1581686518189" duration="1219000" />
       <workItem from="1582010384803" duration="907000" />
-      <workItem from="1582011308644" duration="7677000" />
+      <workItem from="1582011308644" duration="8756000" />
     </task>
     <servers />
   </component>
