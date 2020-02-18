@@ -93,7 +93,8 @@ EOF
         $randomImages = $this->faker->randomElement(self::$articleImages);
         $fs = new Filesystem();
         $targetPath = sys_get_temp_dir().'/'.$randomImages;
-        $fs->copy(__DIR__.'/images'.$randomImages, $targetPath, true);
+        //var_dump($targetPath, __DIR__.'/images'.$randomImages);
+        $fs->copy(__DIR__.'/images/'.$randomImages, $targetPath, true);
 
         return $this->uploaderHelper
             ->uploadArticleImage(new File($targetPath), null);
