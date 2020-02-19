@@ -13,9 +13,9 @@ use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\HttpFoundation\Response;
 use Symfony\Component\HttpFoundation\StreamedResponse;
 use Symfony\Component\Routing\Annotation\Route;
+use Symfony\Component\Serializer\SerializerInterface;
 use Symfony\Component\Validator\Constraints\File;
 use Symfony\Component\Validator\Constraints\NotBlank;
-use Symfony\Component\Validator\ConstraintViolation;
 use Symfony\Component\Validator\Validator\ValidatorInterface;
 
 class ArticleReferenceAdminController extends BaseController
@@ -28,7 +28,6 @@ class ArticleReferenceAdminController extends BaseController
     {
         /** @var UploadedFile $uploadedFile */
         $uploadedFile = $request->files->get('reference');
-        dump($uploadedFile);
 
         $violations = $validator->validate(
             $uploadedFile,
@@ -130,5 +129,36 @@ class ArticleReferenceAdminController extends BaseController
         $uploaderHelper->deleteFile($reference->getFilePath(), false);
 
         return new Response(null, 204);
+    }
+
+    /**
+     * @Route("/admin/article/references/{id}", name="admin_article_update_reference", methods={"PUT"})
+     */
+    public function updateArticleReference(ArticleReference $reference, EntityManagerInterface $entityManager, SerializerInterface $serializer, Request $request)
+    {
+        $article = $reference->getArticle();
+        $this->denyAccessUnlessGranted('MANAGE', $article);
+
+        $serializer->deserialize(
+            $request->getContent(),
+            ArticleReference::class,
+            'json',
+            [
+                'object_to_populate' => $reference,
+                'groups' => ['input']
+            ]
+        );
+
+        $entityManager->persist($reference);
+        $entityManager->flush();
+
+        return $this->json(
+            $reference,
+            200,
+            [],
+            [
+                'groups' => ['main']
+            ]
+        );
     }
 }
